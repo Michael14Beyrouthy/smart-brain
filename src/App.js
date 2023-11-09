@@ -121,7 +121,7 @@ class App extends Component {
       if (response) {
         try 
         { 
-          const fetchResponse = await fetch('http://localhost:3000/image', {
+          const fetchResponse = await fetch('https://smart-brain-backend-2he1.onrender.com/image', {
             method: 'put',
             headers: {
               'Content-Type': 'application/json'

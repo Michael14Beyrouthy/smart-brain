@@ -24,7 +24,7 @@ class Register extends Component {
   }
 
   onSubmitRegister = async () => {
-    const response = await fetch('http://localhost:3000/register', {
+    const response = await fetch('https://smart-brain-backend-2he1.onrender.com/register', {
       method: 'post',
       headers: {
         'Content-Type': 'application/json'
